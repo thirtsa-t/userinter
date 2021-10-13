@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="line"></div>
+        <div class="title">Responsible Registration Form</div>
+
+        <form name="form" action="#" method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <i class="fa fa-envelope"></i>
+                    <input id="email" type="text" placeholder="Email" name="email">
+
+
+
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-lock"></i>
+                    <input id="password" type="password" placeholder="Password" name="password">
+
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-lock"></i>
+                    <input id="confirm" type="password" placeholder="Re-type password" name="confirm">
+
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-user"></i>
+                    <input id="firstName" type="text" placeholder="First Name">
+                    <i class="fa fa-user Names"></i>
+                    <input id="lastName" type="text" placeholder="Last Name">
+
+                </div>
+                <div class="input-box">
+                    <i class="fa fa-calendar"></i>
+                    <input type="date" placeholder="date">
+                    <i class="fa fa-phone-square phone"></i>
+                    <input id="number" type="number" placeholder="phone number">
+                </div>
+            </div>
+            <div class="role-selector" style="width:100%;">
+                <select>
+                    <!-- <input type="select" placeholder="role-selection" > -->
+                    <option value="0">Select your Role :</option>
+                    <option value="1">admin</option>
+                    <option value="2">guest</option>
+                </select>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title"></span>
+                <div class="category">
+                    <label for="gender">
+                        <span class="dot one"></span>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="gender">male</label>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <input type="radio" name="fav_language" value="JavaScript">
+                        <label for="gender">female</label>
+                    </label>
+                </div>
+
+                <div class="conditions-details">
+                    <div class="choose">
+
+                        <input type="checkbox">
+                        <label for="condition"> I agree terms and conditions</label><br>
+                    </div>
+                    <div class="choose">
+
+                        <input type="checkbox">
+                        <label for="condition"> I want to receive the newsletter</label><br>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register" name="Register" onclick="validateInput()">
+                        <p class="message">Already Registered ? <a href="login.html">login</a></p>
+                    </div>
+
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

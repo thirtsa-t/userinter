@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+ body{
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px;  */
+     background: grey ; 
+} 
+ .container{
+     max-width: 700px; 
+    width: 400px;
+    background: rgb(0, 0, 0) ;
+    padding: 25px 30px;
+} 
+.line {
+    
+    height:9px ;
+    width: 370px;
+    background-color:blue;
+    margin-top: -25px;
+   
+  }
+.title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    font-weight: 100vh;
+    color: white;
+    
+}
+ .container .user-details{
+    width: 100%;
+    
+   
+
+}
+.container .user-details .input-box{
+    margin-bottom: 15px;
+    display: flex;
+    
+}
+
+
+.input-box .Names{
+    
+    margin-left: 20px;
+}
+.input-box .phone{
+    margin-left: 20px;
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    padding-left: 25px;
+    color: whitesmoke;
+    background: black;
+    border: 1px solid rgb(51, 50, 50); 
+}
+.input-box .fa{
+    
+     width: 26px;
+      color: rgb(180, 179, 179);
+      padding: 5px;
+      border: 1px solid rgb(51, 50, 50);
+}
+.role-selector select{
+    height: 30px;
+    width: 100%;
+    padding-left: 25px;
+    background: black;
+    border: 1px solid rgb(51, 50, 50); 
+    color: whitesmoke;
+}
+ .role-selector .fa{
+    width: 26px;
+   
+    padding-top: 5px;
+    
+    border: 1px solid rgb(51, 50, 50);
+}
+form .gender-details .category{
+    display: flex;
+    width: 50%;
+    margin: 14px 0;
+    justify-content: space-between;
+} 
+ .gender-details .category label{
+display: flex;
+color: rgb(180, 179, 179);
+align-items: center;
+margin-right: 6px;
+}
+ .gender{
+
+
+color: #161616;
+
+margin-right: 10px;
+
+}  
+.conditions-details .choose  {
+    display: inline; 
+    color:  rgb(180, 179, 179);
+    margin: 10px 10px;
+
+    }
+    .choose input{
+        margin-right: 4px;
+        margin-bottom: 5px;
+    }
+    /* .conditions-details .choose .dot{
+    height: 18px;
+    width: 18px;
+    background: #161616;
+    border-radius: 10%;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    justify-content: space-between; */
+    
+    /* } */
+    .Checkbox input {
+        position: relative;
+        z-index: -9999;
+        width: 20px;
+        height: 20px;
+        display: block;
+        ;
+      }
+      
+      .category  input{
+       margin-right: 7px;
+     
+      }
+      
+      
+  
+form .button{
+    height: 45px;
+    margin: 45px 0;
+    color: black;
+
+ }  
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    color: black;
+    padding: 15px;
+   border: none;
+    font-size: 18px;
+    background: blue;
+
+}
+ form .message{
+    height: 30px;
+    width: 100%;
+    padding-left: 25px;
+    color: whitesmoke;
+}
+.message a{
+    height: 9%;
+    width: 9%;
+  padding: 5px;
+   font-size: 15px;
+    color: blue;
+
+    
+}
+.homepage{
+    height: 99vh; 
+    width: 204vh;
+}
+.img{
+    margin-top: -30vh 40px ;  
+    font-size: 30px;  
+    color: black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
